@@ -1,0 +1,178 @@
+/*!
+ * Start Bootstrap - Clean Blog v5.0.10 (https://startbootstrap.com/theme/clean-blog)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
+*/
+
+/* start of individual added code */
+
+/* import fonts (2) */
+@font-face {
+  font-family: casual;
+  src: url(Casual-Regular.ttf);
+}
+
+div {
+  font-family: casual !important;
+}
+
+      
+@font-face {
+  font-family: audrey;
+  src: url(Audrey-Normal.otf);
+}
+
+div {
+  font-family: audrey !important;
+}
+
+/* determining style and color of text tags */
+h1 { 
+    font-family: casual !important;
+    color: #3d2513;
+}
+
+h2, h3 {
+    font-family: casual !important;
+    color: #8a5824;
+}
+
+p {
+     font-family: audrey !important;
+     color: #3d2513;
+}
+
+h4 { /*putting this in for all the fallbacks and special instances where the font varies from what is in place above */
+    font-family: casual !important;
+    color: #3d2513;
+    font-size: 70px;
+}
+
+/* background color of body */
+body {
+  background-color: #faf7f2;
+}
+
+/* footer color */
+footer {
+background-color: #e8e5df;   
+}
+
+/* nav customization */
+#mainNav .navbar-nav>li.nav-item>a {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: casual;
+    color: #3d2513;
+    text-transform: lowercase;
+    position: static !important!;
+}
+
+/* nav customization */
+#mainNav .navbar-nav>li.nav-item>a:hover {
+  color: #8a5824;
+}
+
+/* for buttons and tables */
+.boxed {
+  border: 4px !important;
+}
+
+/* dropdown button customization */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  font-family: casual;
+  color: #3d2513;
+  text-align: center;
+}
+
+/* change font color on hover */
+.dropbtn:hover {
+    color: #8a5824;
+}
+
+/* appearance of dropdown links */
+.dropdown {
+  position: relative;
+}
+
+/* dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a79479;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* links inside the dropdown */
+.dropdown-content a {
+  color: #faf7f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #75563f;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* button customization! */
+.btn1 {
+  background-color: #faf7f2;
+  border: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px; /* curved edges */
+  font-family: casual;
+  color: #3d2513 !important;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* button customization pt. 2! */
+.btn2 {
+  background-color: #e8e5df;
+  border: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px; /* curved edges */
+  font-family: casual;
+  color: #3d2513 !important;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* change text color on hover */
+a:hover {
+    color: #8a5824 !important;
+}
+
+/* keep font color original */
+a {
+    color: #3d2513 !important;
+}
+
+/* design of list content */
+ul {
+  list-style-type: none;
+  color: #3d2513 !important;
+}
+
+/* more nav bar customization */
+.navbar.navbar-scroll-point, .navbar.navbar-scroll-point.header-with-topbar, .navbar.navbar-scroll-point.hestia_center, .navbar.navbar-scroll-point.hestia_right{
+	position:absolute !important;
+}
+
+/* end of personalized css */
